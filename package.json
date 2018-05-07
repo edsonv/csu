@@ -1,6 +1,6 @@
 {
   "name": "@edsonv/csu",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "convertidor de unidades de masa (lb vs kg)",
   "main": "dist/src/csu.js",
   "scripts": {

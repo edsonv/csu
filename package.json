@@ -1,15 +1,15 @@
 {
-  "name": "@edsonv/wuc",
+  "name": "@edsonv/csu",
   "version": "0.1.0",
   "description": "convertidor de unidades de masa (lb vs kg)",
-  "main": "dist/src/wuc.js",
+  "main": "dist/src/csu.js",
   "scripts": {
-    "build": "babel src/wuc.js -d dist",
+    "build": "babel src/csu.js -d dist",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edsonv/wuc.git"
+    "url": "git+https://github.com/edsonv/csu.git"
   },
   "keywords": [
     "convertidor",
@@ -22,9 +22,9 @@
   "author": "Edson J Vargas <edson.jhair@yahoo.com> (www.edsonvargas.com.ve)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/edsonv/wuc/issues"
+    "url": "https://github.com/edsonv/csu/issues"
   },
-  "homepage": "https://github.com/edsonv/wuc#readme",
+  "homepage": "https://github.com/edsonv/csu#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",

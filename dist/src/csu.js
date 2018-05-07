@@ -1,10 +1,6 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = convertir;
-function convertir(magnitud, entrada, salida) {
+exports.convertir = function (magnitud, entrada, salida) {
     // Se define el factor de conversión 1 Lb = 0.45359237 Kg
     var factor = 0.45359237;
 
@@ -17,4 +13,4 @@ function convertir(magnitud, entrada, salida) {
     if (entrada == "kg" && salida == "lb") {
         return (magnitud / factor).toFixed(8);
     }
-}
+};

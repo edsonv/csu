@@ -12,9 +12,9 @@ npm install csu
 ## Uso
 La llamada a la función debe hacerse ingresando los tres parámetros, donde magnitud es de tipo float, y, entrada y salida son de tipo string. Además los últimos dos parámetros corresponden a la abreviación de las unidades según el estándar del SI.
 ```
-import csu from 'csu'
+const test = require('@edsonv/csu')
 
-convertir(magnitud, entrada, salida)
+console.log(test.convertir(25,'lb','kg'))
 ```
 
 ## Créditos

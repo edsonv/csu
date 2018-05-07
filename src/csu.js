@@ -1,5 +1,5 @@
 
-export default function convertir(magnitud, entrada, salida) {
+exports.convertir = function (magnitud, entrada, salida) {
     // Se define el factor de conversión 1 Lb = 0.45359237 Kg
     const factor = 0.45359237
 

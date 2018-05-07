@@ -6,7 +6,7 @@ El módulo CSU admite una entrada numérica que represente la unidad conocida y 
 
 ## Instalación
 ```
-npm install csu
+npm install @edsonv/csu
 ```
 
 ## Uso
